@@ -117,3 +117,43 @@ nav a:hover {
     padding-left: 30px;
     
 }
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+}
+
+.proj-img-one {
+    flex-grow: 1;
+    background-image: url(../jonfarmer.github.io/Resources/Images/jen-theodore-tWqyWrqLntU-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 50%;
+
+}
+
+.proj-img-two {
+    flex-grow: 1;
+    background-image: url(../jonfarmer.github.io/Resources/Images/harrison-broadbent-nePxBIvqUlU-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 50%;
+}
+
+.projects-text {
+    flex-grow: 1;
+    background-color: #45858C;
+      
+}
+
+.projects-text h2,
+.projects-text h3 {
+    width: 80%;
+}
